@@ -19,6 +19,7 @@ Para correr el proyecto de lectura y gráfica del archivo csv de population, deb
 ```sh
 git clone
 cd app
+python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
 python main.py
