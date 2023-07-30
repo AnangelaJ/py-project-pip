@@ -1,0 +1,8 @@
+# Para crear un servidor web con Python, se utilizará la librería FastAPI y el servidor web Uvicorn
+    Para instalarla se deben ejecutar los siguientes comandos:
+        - pip3 install fastapi (página oficial: https://fastapi.tiangolo.com/)
+        - pip3 install "uvicorn[standard]" (página oficial: https://www.uvicorn.org/)
+    Para subir el servidor web ejecutar el sig. comando:
+        python -m uvicorn main:app --reload (para ventana bash)
+        ó
+        uvicorn main:app --reload (para ventana linux (wsl))
